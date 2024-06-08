@@ -285,8 +285,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @kushwaha_307,@DivinexAv
-Official Channel :- t.me/RX100OFFIiCIAL
+Buy From :- @Manuk230
+Official Channel :- t.me/Manuk230
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -303,7 +303,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''👋🏻Welcome to Your Home, {user_name}! Feel Free to Explore.
 🤖Try To Run This Command : /help 
-✅Join :- t.me/RX100OFFIiCIAL'''
+✅Join :- t.me/Manuk230'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
@@ -327,9 +327,9 @@ Vip 🌟 :
 -> Concurrents Attack : 3
 
 Pr-ice List💸 :
-Day-->300 Rs
-Week-->1000 Rs
-Month-->2000 Rs
+Day-->50 Rs
+Week-->200 Rs
+Month-->750 Rs
 '''
     bot.reply_to(message, response)
 
